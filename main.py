@@ -34,3 +34,5 @@ if __name__ == "__main__":
     # nicht jene der Klasse Animal. Das ist Polymorphie.
     for animal in animals:
         animal.move()
+
+    # startk...oder?
