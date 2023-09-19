@@ -3,22 +3,22 @@ from bird import Bird
 from fish import Fish
 from cow import Cow
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     # Erzeuge ein "abstraktes" Tier. Wie soll sich das bewegen?
-    animal = Animal("was genau?")
+    animal = Animal('was genau?')
     animal.move()
     # Erzeuge einen Vogel
-    bird = Bird("Vogel", "Kudu")
+    bird = Bird('Vogel', 'Kudu')
     bird.move()
     # Erzeugt einen Fisch
-    fish = Fish("Fisch", "Nemo")
+    fish = Fish('Fisch', 'Nemo')
     fish.move()
     # Erzeugt eine Kuh
-    cow = Cow("Kuh", "Ziba")
+    cow = Cow('Kuh', 'Ziba')
     cow.move()
     #
     # Eine kleine Demo was noch möglich ist.
-    print("\n\nDemo zu Polymorphie")
+    print('\n\nDemo zu Polymorphie')
     # Alle Objekt in eine Liste (Sammlung) stecken.
     animals = []
     animals.append(animal)
