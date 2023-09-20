@@ -1,24 +1,40 @@
 {
-  "tests": [
-    {
-      "name": "Input/Output",
-      "setup": "",
-      "run": "python3 main.py",
-      "input": "",
-      "output": "Total: 78.75\n",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "Pytest",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 2
-    }
-  ]
+"tests": [
+{"name": "test_animal",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_animal\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_bird",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_bird\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_cow",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_cow\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+},
+{"name": "test_fish",
+"setup": "sudo -H pip3 install -r requirements.txt",
+"run": "pytest -v  -k \"test_fish\"",
+"input": "",
+"output": "",
+"comparison": "included",
+"timeout": 10,
+"points": 1
+}
+]
 }
