@@ -1,9 +1,9 @@
-
 import pytest
 from animal import Animal
 from bird import Bird
 from cow import Cow
 from fish import Fish
+
 
 class TestAnimals:
 
